@@ -1,6 +1,10 @@
 package net.lordbrach.gachamod;
 
 import com.mojang.logging.LogUtils;
+import net.lordbrach.gachamod.item.ModCreativeModTabs;
+import net.lordbrach.gachamod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -24,6 +28,11 @@ public class GachaMod {
     public GachaMod(){
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
+        // register our deferred register that adds the items
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -34,8 +43,14 @@ public class GachaMod {
     private void commonSetup(final FMLCommonSetupEvent event) {
     }
 
-    // Add the example block item to the building blocks tab
+    // Add your items to creative tabs
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.ROOTBEER);
+        }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.TEMPLATE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
