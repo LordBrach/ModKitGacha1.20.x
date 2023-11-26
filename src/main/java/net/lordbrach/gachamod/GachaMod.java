@@ -1,6 +1,7 @@
 package net.lordbrach.gachamod;
 
 import com.mojang.logging.LogUtils;
+import net.lordbrach.gachamod.block.ModBlocks;
 import net.lordbrach.gachamod.item.ModCreativeModTabs;
 import net.lordbrach.gachamod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -32,7 +33,7 @@ public class GachaMod {
 
         // register our deferred register that adds the items
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);

@@ -1,6 +1,7 @@
 package net.lordbrach.gachamod.item;
 
 import net.lordbrach.gachamod.GachaMod;
+import net.lordbrach.gachamod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.TEMPLATE.get());
                         pOutput.accept(ModItems.ROOTBEER.get());
+
+                        pOutput.accept(ModBlocks.TEST_BLOCK.get());
 
                         pOutput.accept(Items.COMMAND_BLOCK);
                     })
