@@ -11,8 +11,8 @@ import net.minecraft.world.item.ItemUtils;
 
 public class ModFoods {
     public static final FoodProperties ROOTBEER_FOOD = new FoodProperties.Builder()
-            .nutrition(2)
-            .saturationMod(0.2f)
+            .nutrition(5)
+            .saturationMod(0.4f)
             .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 200), 1f)
             .build();
 }
