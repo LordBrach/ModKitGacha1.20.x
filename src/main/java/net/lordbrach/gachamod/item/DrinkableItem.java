@@ -35,11 +35,11 @@ public class DrinkableItem extends Item {
    }
 
    public SoundEvent getDrinkingSound() {
-      return SoundEvents.WITCH_DRINK;
+      return SoundEvents.HONEY_DRINK;
    }
 
    public SoundEvent getEatingSound() {
-      return SoundEvents.WITCH_DRINK;
+      return SoundEvents.HONEY_DRINK;
    }
 
    /**
