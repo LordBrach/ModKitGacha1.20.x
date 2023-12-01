@@ -21,6 +21,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.TEMPLATE.get());
                         pOutput.accept(ModItems.ROOTBEER.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.PULL1.get());
+                        pOutput.accept(ModItems.PULL5.get());
+
                         pOutput.accept(ModBlocks.TEST_BLOCK.get());
 
                         pOutput.accept(Items.COMMAND_BLOCK);

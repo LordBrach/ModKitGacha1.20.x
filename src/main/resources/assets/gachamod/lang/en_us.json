@@ -2,6 +2,9 @@
   "item.gachamod.rootbeer": "Root Beer",
   "item.gachamod.template": "The man behind the slaughter",
   "item.gachamod.metal_detector": "Metal Detector",
+  "item.gachamod.pull_one": "Single Pull",
+  "item.gachamod.pull_five": "Multi Pull",
+
   "block.gachamod.test_block": "Testing Block",
   "creativetab.gacha_tab": "GachaMod"
 }
