@@ -1,4 +1,4 @@
-package net.lordbrach.gachamod.item;
+package net.lordbrach.gachamod.item.custom;
 
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.server.level.ServerPlayer;
