@@ -6,5 +6,6 @@
   "item.gachamod.pull_five": "Multi Pull",
 
   "block.gachamod.test_block": "Testing Block",
-  "creativetab.gacha_tab": "GachaMod"
+  "creativetab.gacha_tab": "Gacha Mod",
+  "creativetab.test_tab": "Debug Gacha Mod"
 }

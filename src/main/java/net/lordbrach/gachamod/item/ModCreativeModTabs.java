@@ -15,8 +15,18 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, GachaMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> GACHA_TAB = CREATIVE_MODE_TABS.register("gacha_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TEMPLATE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PULL1.get()))
                     .title(Component.translatable("creativetab.gacha_tab"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.ROOTBEER.get());
+                        pOutput.accept(ModItems.PULL1.get());
+                        pOutput.accept(ModItems.PULL5.get());
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> TEST_TAB = CREATIVE_MODE_TABS.register("test_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TEMPLATE.get()))
+                    .title(Component.translatable("creativetab.test_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.TEMPLATE.get());
                         pOutput.accept(ModItems.ROOTBEER.get());
@@ -34,4 +44,5 @@ public class ModCreativeModTabs {
     {
         CREATIVE_MODE_TABS.register(eventBus);
     }
+
 }
