@@ -1,6 +1,7 @@
 package net.lordbrach.gachamod.block;
 
 import net.lordbrach.gachamod.GachaMod;
+import net.lordbrach.gachamod.block.custom.TestSoundBlock;
 import net.lordbrach.gachamod.item.ModItems;
 import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.world.item.BlockItem;
@@ -22,6 +23,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new TestSoundBlock(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -18,9 +18,10 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PULL1.get()))
                     .title(Component.translatable("creativetab.gacha_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.ROOTBEER.get());
                         pOutput.accept(ModItems.PULL1.get());
                         pOutput.accept(ModItems.PULL5.get());
+                        pOutput.accept(ModItems.ROOTBEER.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
 
