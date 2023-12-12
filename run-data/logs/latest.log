@@ -1,0 +1,29 @@
+[11déc.2023 15:46:23.600] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\aless\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.6, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, gachamod, --all, --output, C:\Users\aless\Desktop\Modding MC\ModKitGacha1.20.x\src\generated\resources, --existing, C:\Users\aless\Desktop\Modding MC\ModKitGacha1.20.x\src\main\resources]
+[11déc.2023 15:46:23.604] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[11déc.2023 15:46:23.703] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[11déc.2023 15:46:23.758] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/aless/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[11déc.2023 15:46:23.983] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\aless\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.6\56551ed4a181a00930b0365996e1d9f3ca851459\javafmllanguage-1.20.1-47.2.6.jar is missing mods.toml file
+[11déc.2023 15:46:23.987] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\aless\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.6\f27bd133cd78227e8d6def633b83c881a30cc243\lowcodelanguage-1.20.1-47.2.6.jar is missing mods.toml file
+[11déc.2023 15:46:23.990] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\aless\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.6\6e1641ac5a046737d7c3209901ca0a829d636873\mclanguage-1.20.1-47.2.6.jar is missing mods.toml file
+[11déc.2023 15:46:23.993] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\aless\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.6\2d5f5aff839b7d2825c6968049399633d1c4d0b8\fmlcore-1.20.1-47.2.6.jar is missing mods.toml file
+[11déc.2023 15:46:24.054] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[11déc.2023 15:46:25.026] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\aless\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, gachamod, --all, --output, C:\Users\aless\Desktop\Modding MC\ModKitGacha1.20.x\src\generated\resources, --existing, C:\Users\aless\Desktop\Modding MC\ModKitGacha1.20.x\src\main\resources]
+[11déc.2023 15:46:25.303] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [gachamod]
+[11déc.2023 15:46:28.540] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.6, for MC 1.20.1 with MCP 20230612.114412
+[11déc.2023 15:46:28.542] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.6 Initialized
+[11déc.2023 15:46:28.908] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/aless/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.6_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.6_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[11déc.2023 15:46:28.908] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/aless/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.6_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.6_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[11déc.2023 15:46:29.040] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[11déc.2023 15:46:29.089] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 48 ms
+[11déc.2023 15:46:29.089] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[11déc.2023 15:46:29.112] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 22 ms
+[11déc.2023 15:46:29.112] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: gachamod
+[11déc.2023 15:46:29.221] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: gachamod finished after 108 ms
+[11déc.2023 15:46:29.221] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: gachamod
+[11déc.2023 15:46:29.227] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: gachamod finished after 5 ms
+[11déc.2023 15:46:29.227] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id gachamod
+[11déc.2023 15:46:29.240] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id gachamod finished after 13 ms
+[11déc.2023 15:46:29.241] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id gachamod
+[11déc.2023 15:46:29.241] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id gachamod finished after 0 ms
+[11déc.2023 15:46:29.242] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 202 ms
+[11déc.2023 15:46:29.250] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 21, old count: 0, new count: 22, removed stale: 0, written: 21

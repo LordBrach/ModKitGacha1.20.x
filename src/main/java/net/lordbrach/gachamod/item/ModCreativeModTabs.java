@@ -21,6 +21,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.PULL1.get());
                         pOutput.accept(ModItems.PULL5.get());
                         pOutput.accept(ModItems.ROOTBEER.get());
+                        pOutput.accept(ModItems.GREAT_CLUB.get());
+
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());

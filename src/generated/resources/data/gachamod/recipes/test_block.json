@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "gachamod:rootbeer"
+    },
+    "S": {
+      "item": "gachamod:template"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SOS",
+    "SSS"
+  ],
+  "result": {
+    "item": "gachamod:test_block"
+  },
+  "show_notification": true
+}

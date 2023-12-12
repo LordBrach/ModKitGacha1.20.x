@@ -1,0 +1,5 @@
+// 1.20.1	2023-12-11T15:46:29.243683	Tags for minecraft:block mod id gachamod
+cb28339548a9f5c43f81c4715df14c62d24020ad data/gachamod/tags/blocks/metal_detector_valuables.json
+4df51f0652941e04464fa8b8fe00f8994505d48e data/minecraft/tags/blocks/mineable/pickaxe.json
+c187f20fbe37c989f6da2b6e12e75be80f1ff438 data/minecraft/tags/blocks/needs_diamond_tool.json
+acf7ffef0645195b5e86df8816d570ce776db9a0 data/minecraft/tags/blocks/needs_iron_tool.json

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gachamod:test_block"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "gachamod:template"
+  }
+}
