@@ -6,6 +6,14 @@
   "tooltip.gachamod.pull_one.tooltip": "May lady luck smile upon you",
   "item.gachamod.pull_five": "Multi Pull",
   "item.gachamod.great_club": "Great Club",
+  "item.gachamod.greatsword": "Steel Greatsword",
+
+  "sounds.gachamod.sound_metal_strike": "Heavy metal strike",
+  "sounds.gachamod.sound_sus_break": "Sus block break",
+  "sounds.gachamod.sound_sus_fall": "Sus block fall",
+  "sounds.gachamod.sound_sus_hit": "Sus block hit",
+  "sounds.gachamod.sound_sus_place": "Sus block place",
+  "sounds.gachamod.sound_sus_step": "Sus block step",
 
   "block.gachamod.test_block": "Testing Block",
   "block.gachamod.sound_block": "Annoying Block",

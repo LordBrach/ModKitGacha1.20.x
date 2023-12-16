@@ -1,10 +1,7 @@
 package net.lordbrach.gachamod.item;
 
 import net.lordbrach.gachamod.GachaMod;
-import net.lordbrach.gachamod.item.custom.ClubItem;
-import net.lordbrach.gachamod.item.custom.DrinkableItem;
-import net.lordbrach.gachamod.item.custom.PullItem;
-import net.lordbrach.gachamod.item.custom.TestCustomItem;
+import net.lordbrach.gachamod.item.custom.*;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;
@@ -30,11 +27,15 @@ public class ModItems {
             .durability(5)));
 
     public static final RegistryObject<Item> GREAT_CLUB = ITEMS.register("great_club", ()-> new ClubItem(
-            Tiers.NETHERITE,
+            Tiers.DIAMOND,
             10.0f,
-            0.5f,
+            3.5f,
             new ClubItem.Properties()));
-
+    public static final RegistryObject<Item> GREATSWORD = ITEMS.register("greatsword", ()-> new GreatSwordItem(
+            Tiers.NETHERITE,
+            15,
+            5.05f,
+            new ClubItem.Properties()));
     // register DeferredRegister
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

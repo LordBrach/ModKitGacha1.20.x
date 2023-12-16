@@ -1,0 +1,40 @@
+{
+  "sound_metal_strike": {
+    "subtitles": "sounds.gachamod.sound_metal_strike",
+    "sounds": [
+      "gachamod:sound_metal_strike",
+      "gachamod:sound_metal_strike_hi",
+      "gachamod:sound_metal_strike_lo"
+    ]
+  },
+  "sound_sus_break": {
+    "subtitles": "sounds.gachamod.sound_sus_break",
+    "sounds": [
+      "gachamod:sound_sus_break"
+    ]
+  },
+  "sound_sus_fall": {
+    "subtitles": "sounds.gachamod.sound_sus_fall",
+    "sounds": [
+      "gachamod:sound_sus_fall"
+    ]
+  },
+  "sound_sus_hit": {
+    "subtitles": "sounds.gachamod.sound_sus_hit",
+    "sounds": [
+      "gachamod:sound_sus_hit"
+    ]
+  },
+  "sound_sus_place": {
+    "subtitles": "sounds.gachamod.sound_sus_place",
+    "sounds": [
+      "gachamod:sound_sus_place"
+    ]
+  },
+  "sound_sus_step": {
+    "subtitles": "sounds.gachamod.sound_sus_step",
+    "sounds": [
+      "gachamod:sound_sus_step"
+    ]
+  }
+}
