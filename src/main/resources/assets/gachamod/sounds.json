@@ -36,5 +36,13 @@
     "sounds": [
       "gachamod:sound_sus_step"
     ]
+  },
+  "whistle_meme": {
+    "sounds": [
+      {
+        "name": "gachamod:whistle_meme",
+        "stream": true
+      }
+    ]
   }
 }

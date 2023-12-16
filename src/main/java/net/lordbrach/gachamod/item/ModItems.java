@@ -2,8 +2,9 @@ package net.lordbrach.gachamod.item;
 
 import net.lordbrach.gachamod.GachaMod;
 import net.lordbrach.gachamod.item.custom.*;
+import net.lordbrach.gachamod.sound.ModSounds;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.RecordItem;
 import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -36,6 +37,12 @@ public class ModItems {
             15,
             5.05f,
             new ClubItem.Properties()));
+    public static final RegistryObject<Item> DISC_WHISTLE = ITEMS.register("disc_whistle", ()-> new RecordItem(
+            1,
+            ModSounds.WHISTLE_MEME,
+            new Item.Properties().stacksTo(1),
+            380)); // 20 * song length in seconds
+
     // register DeferredRegister
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

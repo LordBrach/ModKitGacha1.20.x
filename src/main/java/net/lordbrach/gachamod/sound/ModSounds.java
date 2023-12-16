@@ -22,6 +22,9 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> SOUND_SUS_PLACE = registerSoundEvents("sound_sus_place");
     public static final RegistryObject<SoundEvent> SOUND_SUS_HIT = registerSoundEvents("sound_sus_hit");
 
+    // Music discs
+    public static final RegistryObject<SoundEvent> WHISTLE_MEME = registerSoundEvents("whistle_meme");
+
     // link sounds to block values
     public static final ForgeSoundType SOUND_SUS_SOUNDS = new ForgeSoundType(1f, 1f,
             ModSounds.SOUND_SUS_BREAK, ModSounds.SOUND_SUS_STEP,

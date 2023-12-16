@@ -21,6 +21,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.PULL1);
         simpleItem(ModItems.PULL5);
         simpleItem(ModItems.ROOTBEER);
+        simpleItem(ModItems.DISC_WHISTLE);
 
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.TEMPLATE);

@@ -8,12 +8,17 @@
   "item.gachamod.great_club": "Great Club",
   "item.gachamod.greatsword": "Steel Greatsword",
 
+  "item.gachamod.disc_whistle": "Weird Music Disc",
+  "item.gachamod.disc_whistle.desc": "(...)",
+
   "sounds.gachamod.sound_metal_strike": "Heavy metal strike",
   "sounds.gachamod.sound_sus_break": "Sus block break",
   "sounds.gachamod.sound_sus_fall": "Sus block fall",
   "sounds.gachamod.sound_sus_hit": "Sus block hit",
   "sounds.gachamod.sound_sus_place": "Sus block place",
   "sounds.gachamod.sound_sus_step": "Sus block step",
+
+
 
   "block.gachamod.test_block": "Testing Block",
   "block.gachamod.sound_block": "Annoying Block",

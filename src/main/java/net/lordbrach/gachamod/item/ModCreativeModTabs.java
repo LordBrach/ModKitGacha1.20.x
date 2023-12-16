@@ -37,6 +37,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.PULL1.get());
                         pOutput.accept(ModItems.PULL5.get());
+                        pOutput.accept(ModItems.DISC_WHISTLE.get());
 
                         pOutput.accept(ModBlocks.TEST_BLOCK.get());
 
