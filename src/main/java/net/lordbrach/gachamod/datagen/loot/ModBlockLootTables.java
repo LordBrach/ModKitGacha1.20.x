@@ -19,6 +19,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.SOUND_BLOCK.get());
         this.dropSelf(ModBlocks.TEST_BLOCK.get());
+        this.dropSelf(ModBlocks.GACHA_STATION.get());
     }
 
     @Override

@@ -22,6 +22,9 @@
 
   "block.gachamod.test_block": "Testing Block",
   "block.gachamod.sound_block": "Annoying Block",
+  "block.gachamod.gacha_station": "Gacha Trading Post",
+
+
   "creativetab.gacha_tab": "Gacha Mod",
   "creativetab.test_tab": "Debug Gacha Mod"
 }
