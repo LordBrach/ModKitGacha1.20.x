@@ -1,3 +1,4 @@
-// 1.20.1	2023-12-11T15:46:29.2446835	Loot Tables
+// 1.20.1	2024-01-02T17:43:46.3351723	Loot Tables
+cc2dba114e776a77b4a6af86515a8e6da12330ba data/gachamod/loot_tables/blocks/gacha_station.json
 8e7a8e25ab0c3820dfc6275fd279dcf310db6693 data/gachamod/loot_tables/blocks/sound_block.json
 60d7f7e22b875bb5e2b5985e3758f8f8b8a86ddf data/gachamod/loot_tables/blocks/test_block.json

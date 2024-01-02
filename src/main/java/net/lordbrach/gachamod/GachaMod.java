@@ -2,9 +2,13 @@ package net.lordbrach.gachamod;
 
 import com.mojang.logging.LogUtils;
 import net.lordbrach.gachamod.block.ModBlocks;
+import net.lordbrach.gachamod.block.entity.ModBlockEntities;
 import net.lordbrach.gachamod.item.ModCreativeModTabs;
 import net.lordbrach.gachamod.item.ModItems;
+import net.lordbrach.gachamod.screen.GachaStationScreen;
+import net.lordbrach.gachamod.screen.ModMenuTypes;
 import net.lordbrach.gachamod.sound.ModSounds;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -33,6 +37,9 @@ public class GachaMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModSounds.register(modEventBus);
+
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -63,6 +70,7 @@ public class GachaMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            MenuScreens.register(ModMenuTypes.GACHA_STATION_MENU.get(), GachaStationScreen::new);
         }
     }
 }

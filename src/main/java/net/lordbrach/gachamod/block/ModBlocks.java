@@ -31,7 +31,7 @@ public class ModBlocks {
 
 
     public static final RegistryObject<Block> GACHA_STATION = registerBlock("gacha_station",
-            () -> new GachaStationBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+            () -> new GachaStationBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).lightLevel((p_50828_) -> 3).noOcclusion()));
 
 
 

@@ -19,11 +19,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.TEST_BLOCK);
 
         blockWithItem(ModBlocks.SOUND_BLOCK);
+
+        simpleBlockWithItem(ModBlocks.GACHA_STATION.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/gacha_station")));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
-        simpleBlock(ModBlocks.GACHA_STATION.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/gacha_station")));
     }
 }

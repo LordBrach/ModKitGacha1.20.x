@@ -23,6 +23,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ROOTBEER.get());
                         pOutput.accept(ModItems.GREAT_CLUB.get());
                         pOutput.accept(ModItems.GREATSWORD.get());
+                        pOutput.accept(ModBlocks.GACHA_STATION.get());
 
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
@@ -40,7 +41,6 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.DISC_WHISTLE.get());
 
                         pOutput.accept(ModBlocks.TEST_BLOCK.get());
-
                         pOutput.accept(Items.COMMAND_BLOCK);
                     })
                     .build());
