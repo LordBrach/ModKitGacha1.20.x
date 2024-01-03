@@ -22,10 +22,6 @@ public class ModItems {
     public static final RegistryObject<Item> TEMPLATE = ITEMS.register("template", ()-> new Item(new Item.Properties()));
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector", ()-> new TestCustomItem(new Item.Properties()
             .durability(100)));
-    public static final RegistryObject<Item> PULL1 = ITEMS.register("pull_one", ()-> new PullItem(new Item.Properties()
-            .durability(1)));
-    public static final RegistryObject<Item> PULL5 = ITEMS.register("pull_five", ()-> new PullItem(new Item.Properties()
-            .durability(5)));
 
     public static final RegistryObject<Item> GREAT_CLUB = ITEMS.register("great_club", ()-> new ClubItem(
             Tiers.DIAMOND,
@@ -42,6 +38,12 @@ public class ModItems {
             ModSounds.WHISTLE_MEME,
             new Item.Properties().stacksTo(1),
             380)); // 20 * song length in seconds
+
+    // MAKE SURE THAT THESE TWO ARE REGISTERED LAST
+    public static final RegistryObject<Item> PULL5 = ITEMS.register("pull_five", ()-> new PullItem(new Item.Properties()
+            .durability(5)));
+    public static final RegistryObject<Item> PULL1 = ITEMS.register("pull_one", ()-> new PullItem(new Item.Properties()
+            .durability(1)));
 
     // register DeferredRegister
     public static void register(IEventBus eventBus) {
